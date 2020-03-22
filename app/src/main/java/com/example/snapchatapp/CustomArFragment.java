@@ -39,7 +39,6 @@ public class CustomArFragment extends ArFragment {
 
         getPlaneDiscoveryController().hide();
         getPlaneDiscoveryController().setInstructionView(null);
-
         return frameLayout;
 
     }
