@@ -17,14 +17,11 @@ import java.util.Set;
 
 public class CustomArFragment extends ArFragment {
 
-
     @Override
     protected Config getSessionConfiguration(Session session) {
         Config config = new Config(session);
         config.setAugmentedFaceMode(Config.AugmentedFaceMode.MESH3D);
-
         this.getArSceneView().setupSession(session);
-
         return config;
     }
 
